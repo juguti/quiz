@@ -1,0 +1,79 @@
+html{
+    background-color: rgb(200, 200, 200);
+
+}
+.reponse{
+    width: 50vh;
+    height: 10vh;
+    margin: 16px;
+}
+#espace_button{
+    position: absolute;
+    left: 50%;
+    top:60%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(139, 100, 175);
+    border: 4px solid black;
+    box-shadow: 4px 4px 4px black;
+    border-radius: 5%;
+
+}
+#question{
+    background-color: rgb(187, 187, 187);
+    border: 4px solid black;
+    box-shadow: 4px 4px 4px black;
+    border-radius: 5%;
+    position: absolute;
+    min-height: 48px;
+    left: 50%;
+    top:20%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    padding: 20px;
+}
+.reponse{
+    background-color: rgb(132, 193, 132);
+    border: 4px solid black;
+    box-shadow: 4px 4px 4px black;
+    border-radius: 20%; 
+}
+.reponse:hover{
+    background-color: rgb(89, 153, 89);
+    cursor:grab;
+}
+#point_case{
+    position: fixed;
+    top: 4px;
+    right: 4px;
+    width: 64px;
+    height: 64px;
+
+}
+#point{
+    font-size: 32px;
+    color: white;
+}
+
+
+.choix_du_mode{
+    margin: 2vh;
+    border-radius: 75%;
+    background-color: rgb(135, 0, 135);
+    border: 4px solid black;
+    box-shadow: 4px 4px 4px black;
+    color: #ffffff;
+    height: 20vh;
+    width: 50vw;
+}
+#menu{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    justify-content: space-between;
+    flex-direction: column;
+    transform: translate(-50%,-50%);
+    
+}
