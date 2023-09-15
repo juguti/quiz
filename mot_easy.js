@@ -410,28 +410,28 @@ function verif1(){
     let reponse = zone_question.innerHTML
     
     if (bouton1.innerHTML == mot[reponse] ){point++}
-    else{point--}
+    
     nombre++
     game()
 }
 function verif2(){
     let reponse = zone_question.innerHTML
     if (bouton2.innerHTML == mot[reponse] ){point++}
-    else{point--}
+    
     nombre++
     game()
 }
 function verif3(){
     let reponse = zone_question.innerHTML
     if (bouton3.innerHTML == mot[reponse] ){point++}
-    else{point--}
+    
     nombre++
     game()
 }
 function verif4(){
     let reponse = zone_question.innerHTML
     if (bouton4.innerHTML == mot[reponse] ){point++}
-    else{point--}
+    
     nombre++
     game()
 }
