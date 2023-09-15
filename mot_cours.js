@@ -1,10 +1,25 @@
-const mot = {"a file":"un dossiers",
+const mot = {
+    "a file":"un dossiers",
     "at random":"au hazard",
     "on purpose":"de façon refléchit",
     "achivements":"réussites",
     "portrayal":"portrait",
     "incentive":"motivation",
-    "for sure":"t'es sur/bien sur",}
+    "for sure":"t'es sur/bien sur",
+     "naughty":"turbulent",
+    "mischievous":"turbulent",
+    "remain":"deumeurer",
+    "skilled":"talentueux",
+    "fierce":"coriase",
+    "acknowlege":"reconnaitre",
+    "self-suficiency":"autonomie",
+    "genuine":"authentique",
+    "yet":"encore / cependant",
+    "regard":"considerer",
+    "forgiveness":"le pardon",
+    "term":"mandat",
+    "therefor":"à cet effet / en conséquence "
+            }
 
 
     function randomize(tab) {
