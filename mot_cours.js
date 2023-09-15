@@ -1,5 +1,5 @@
 const mot = {
-    "a file":"un dossiers",
+    "a file":"un dossier",
     "at random":"au hazard",
     "on purpose":"de façon refléchit",
     "achivements":"réussites",
@@ -10,7 +10,7 @@ const mot = {
     "mischievous":"turbulent",
     "remain":"deumeurer",
     "skilled":"talentueux",
-    "fierce":"coriase",
+    "fierce":"coriace",
     "acknowlege":"reconnaitre",
     "self-suficiency":"autonomie",
     "genuine":"authentique",

@@ -1,5 +1,6 @@
 html{
-    background-color: rgb(200, 200, 200);
+    background: rgb(3,138,206);
+    background: linear-gradient(90deg, rgba(3,138,206,1) 0%, rgba(1,190,241,1) 42%, rgba(0,212,255,1) 77%, rgba(2,165,224,1) 100%);
 
 }
 .reponse{
@@ -8,23 +9,25 @@ html{
     margin: 16px;
 }
 #espace_button{
+    width: 80%;
     position: absolute;
     left: 50%;
     top:60%;
     transform: translate(-50%,-50%);
     display: flex;
     flex-direction: column;
-    background-color: rgb(139, 100, 175);
+    background-color: #a87d22;
     border: 4px solid black;
     box-shadow: 4px 4px 4px black;
-    border-radius: 5%;
+    border-radius: 30px;
+    
 
 }
 #question{
-    background-color: rgb(187, 187, 187);
+    background-color: #AD956B;
     border: 4px solid black;
     box-shadow: 4px 4px 4px black;
-    border-radius: 5%;
+    border-radius: 30px;
     position: absolute;
     min-height: 48px;
     left: 50%;
@@ -32,38 +35,42 @@ html{
     transform: translate(-50%,-50%);
     width: 50%;
     padding: 20px;
+    align-items: center;
 }
 .reponse{
-    background-color: rgb(132, 193, 132);
+    margin-left:10% ;
+    background-color: #3272b1;
     border: 4px solid black;
     box-shadow: 4px 4px 4px black;
-    border-radius: 20%; 
+    border-radius: 30px;
+    width: 80%;
+    color: #D4D3DC;
 }
 .reponse:hover{
-    background-color: rgb(89, 153, 89);
+    background-color: #384454;
     cursor:grab;
 }
 #point_case{
     position: fixed;
     top: 4px;
-    right: 4px;
+    right: 10%;
     width: 64px;
     height: 64px;
 
 }
 #point{
     font-size: 32px;
-    color: white;
+    color: #D4D3DC;
 }
 
 
 .choix_du_mode{
     margin: 2vh;
-    border-radius: 75%;
-    background-color: rgb(135, 0, 135);
+    border-radius: 60px;
+    background-color: #384454;
     border: 4px solid black;
     box-shadow: 4px 4px 4px black;
-    color: #ffffff;
+    color: #D4D3DC;
     height: 20vh;
     width: 50vw;
 }
@@ -77,3 +84,14 @@ html{
     transform: translate(-50%,-50%);
     
 }
+
+img{
+    height: 50%;
+    width: auto;
+}
+.retour{
+    position: absolute;
+    top:16px;
+    left: 16px;
+    height: 10%;
+    width: 10%;}
