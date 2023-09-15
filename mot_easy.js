@@ -340,7 +340,8 @@ const mot = {
   "reservation": "réservation",
   "language": "langue",
   "translation": "traduction",
-  "communication": "communication"}
+  "communication": "communication"
+}
 
 
 
@@ -410,7 +411,6 @@ function verif1(){
     let reponse = zone_question.innerHTML
     
     if (bouton1.innerHTML == mot[reponse] ){point++}
-    
     nombre++
     game()
 }
