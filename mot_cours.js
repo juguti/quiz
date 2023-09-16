@@ -49,7 +49,7 @@ const mot = {
     "to nudge":"coup de coude",
     "elbow":"coude",
     "onto":"sur",
-    "map":"tapis",
+    "mat":"tapis",
     "rope":"corde",
     "pleasantries":"civilités",
     "to reach" : "tendre la main",
