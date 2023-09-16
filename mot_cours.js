@@ -58,7 +58,7 @@ const mot = {
     "dear":"mon chère",
     "to squeal":"pousser un cris",
     "shush":"chut",
-    "to sold":"gronder",
+    "to scold":"gronder",
     "shame":"honte",
     "to lay":"coucher",
     "bone":"os",
