@@ -8,7 +8,7 @@ const mot = {
     "for sure":"t'es sur/bien sur",
      "naughty":"turbulent",
     "mischievous":"turbulent",
-    "remain":"deumeurer",
+    "remain":"demeurer",
     "skilled":"talentueux",
     "fierce":"coriace",
     "acknowlege":"reconnaitre",
