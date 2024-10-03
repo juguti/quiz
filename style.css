@@ -1,7 +1,7 @@
 html{
     margin: 0;
     padding: 0;
-    background-image: url('fond.jpeg'); /* Remplacez 'chemin/vers/votre/image.jpg' par le chemin réel de votre image */
+    background-image: url('fond1.jpg'); /* Remplacez 'chemin/vers/votre/image.jpg' par le chemin réel de votre image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,7 +61,10 @@ html{
 }
 #point{
     font-size: 32px;
-    color: #D4D3DC;
+    color: #ffffff;
+    background-color: #3272b1;
+    border-radius: 10%;
+    padding: 10px;
 }
 
 
