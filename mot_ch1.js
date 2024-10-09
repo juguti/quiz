@@ -77,8 +77,29 @@ const mot = {
     "Props": "Accessoires",
     "Stain": "Tacher",
     "Landscape": "Paysage",
-    "Uprising": "Émeute"
+    "Uprising": "Émeute",
+    "Thus": "Ainsi",
+    "Defiling": "Profanation/souillée",
+    "The depletion": "L'épuisement",
+    "Scarcity": "La rareté",
+    "Raw materials": "Matière première",
+    "Although": "Bien que",
+    "Pristine": "Vierge",
+    "Fourfold": "Quadruple",
+    "A mammal": "Un mammifère",
+    "Dwells at length": "S'étend sur une longue durée",
+    "To funnel": "Diriger",
+    "Readily": "Facilement",
+    "Intermingled": "Entremêlées",
+    "Such as": "Tel que",
+    "Neglect": "Négligence",
+    "Logging": "Exploitation du bois",
+    "Pitches": "Emplacement",
+    "To loosen": "Relâcher",
+    "To halt": "Arrêter",
+    "Overshoot": "Dépassement"
   }
+  
   
 
 

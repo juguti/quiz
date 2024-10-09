@@ -5,6 +5,8 @@ html{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+
     height: 100vh;
 }
 .reponse{
@@ -101,3 +103,14 @@ img{
     left: 16px;
     height: 10%;
     width: 10%;}
+
+.mot_l{
+
+    background-color: #ffffff;
+    font-size: 1.2rem;
+    padding: 4px;
+}
+h1{
+    text-align: center;
+    color: rgb(223, 246, 235);
+}
