@@ -98,6 +98,7 @@ const mot = {
         "To loosen": "Relâcher",
         "To halt": "Arrêter",
         "Overshoot": "Dépassement",
+        "endangered species":"espece en voie d extinction",
           "Supply": "Alimenter",
           "Plants": "Usines",
           "Meander": "Méandres",
