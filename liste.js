@@ -1,4 +1,4 @@
-const mot = {
+const CH1 = {
         "To smear something with": "Enduire",
         "To throw something at / to hurl something at": "Lancer quelque chose",
         "A painting": "Une peinture",
@@ -97,7 +97,8 @@ const mot = {
         "Pitches": "Emplacement",
         "To loosen": "Relâcher",
         "To halt": "Arrêter",
-        "Overshoot": "Dépassement",
+        "Overshoot": "Dépassement"}
+const CH2 = {
         "endangered species":"espece en voie d extinction",
           "Supply": "Alimenter",
           "Plants": "Usines",
@@ -364,17 +365,163 @@ const mot = {
     "a trend / tendency": "une tendance",
     "earnings / income": "les entrées d’argent",
     "at odds with": "être en contradiction",
-    "a glimmer of hope": "une lueur d’espoir"
-          
-          
-        
-        
+    "a glimmer of hope": "une lueur d’espoir" 
       }
       
-  
+const CH3 = {
+  "Standard of Living": "Le niveau de vie",
+  "Living Standard": "Le niveau de vie",
+  "GDP Per Head": "Le PIB par habitant",
+  "GDP Per Inhabitant": "Le PIB par habitant",
+  "Lifestyle": "Mode de vie",
+  "Way of Life": "Mode de vie",
+  "Buying Power": "Le pouvoir d'achat",
+  "Spending Power": "Le pouvoir d'achat",
+  "Purchasing Power": "Le pouvoir d'achat",
+  "Rich": "Riche",
+  "Wealthy": "Riche",
+  "Wealth": "La richesse",
+  "Affluent": "La richesse",
+  "Well Off": "Aisé",
+  "Well To Do": "Nanti",
+  "Well Heeled": "Fortuné",
+  "Affluent Society": "La société d'abondance",
+  "To Be Affluent": "Vivre dans l'aisance",
+  "Influenza": "Grippe",
+  "Portmanteau Word": "Mot composé de deux autres",
+  "Unfulfilled": "Frustré",
+  "Spite": "Dépit",
+  "Well Being": "Le bien-être",
+  "Rich People": "Les riches",
+  "The Rich": "Les riches",
+  "Riches": "Des richesses",
+  "Super Rich": "Les grandes fortunes",
+  "Mega Rich": "Les grandes fortunes",
+  "Stinking Rich": "Plein aux as",
+  "In Moneyed Circles": "Parmi les riches",
+  "Amass": "Amasser",
+  "A Millionaire": "Un millionnaire",
+  "Dollar Millionaire": "Un millionnaire en dollars",
+  "A Billionaire": "Un milliardaire",
+  "Zillionaire": "Un multimilliardaire",
+  "Multi Millionaire": "Un multimilliardaire",
+  "Oil Magnate": "Un magnat du pétrole",
+  "Press Baron": "Un baron de la presse",
+  "Media Mogul": "Un magnat des médias",
+  "Software Tycoon": "Un roi des logiciels",
+  "Income": "Le revenu",
+  "Income Tax": "L'impôt sur le revenu",
+  "Tax Haven": "Un paradis fiscal",
+  "Tax Evasion": "La fraude fiscale",
+  "Stash Money Away": "Planquer de l'argent",
+  "Money Laundering": "Le blanchiment d'argent",
+  "High Income Families": "Familles à hauts revenus",
+  "Low Income Families": "Familles à bas revenus",
+  "Taxpayer": "Un contribuable",
+  "Earnings": "Les gains",
+  "Shell Companies": "Sociétés écrans",
+  "The Laundromat": "Laundromat",
+  "Poverty": "La pauvreté",
+  "Poor People": "Les pauvres",
+  "Working Poor": "Les travailleurs pauvres",
+  "Poor": "Pauvre",
+  "Impoverished": "Pauvre",
+  "The Needy": "Les nécessiteux",
+  "Dire Poverty": "La misère",
+  "Destitution": "La misère noire",
+  "Most Destitute": "Les plus démunis",
+  "To Fall On Hard Times": "Tomber dans la misère",
+  "To Sink Into Poverty": "Sombrer dans la pauvreté",
+  "Below The Poverty Line": "En dessous du seuil de pauvreté",
+  "Above The Poverty Line": "Au-dessus du seuil de pauvreté",
+  "Low Income Household": "Un ménage à revenu modeste",
+  "Deprived": "Défavorisé",
+  "Disadvantaged": "Défavorisé",
+  "Underprivileged": "Défavorisé",
+  "To Live On 2 A Day": "Vivre avec 2 $ par jour",
+  "To Live On Benefit": "Vivre d'allocations",
+  "On Welfare": "Vivre d'allocations",
+  "Pauperism": "Le paupérisme",
+  "Pauperization": "La paupérisation",
+  "Mind Bending": "Hallucinant",
+  "Everyone But": "Sauf",
+  "In The Span": "L'espace",
+  "Inequality": "L'inégalité",
+  "Unequal": "Inégal",
+  "To Share": "Partager",
+  "To Share Out": "Répartir",
+  "Distribution Of Wealth": "La répartition des richesses",
+  "Two Tier Society": "Une société à deux vitesses",
+  "Social Fabric": "Le tissu social",
+  "Gap Between Rich And Poor": "Le fossé entre les riches et les pauvres",
+  "Gap Between Haves And Have Nots": "La fracture sociale",
+  "To Bridge The Gap": "Combler le fossé",
+  "Gap Closing": "Le fossé se comble",
+  "Gap Widening": "Le fossé se creuse",
+  "Discrepancy": "Un écart",
+  "Chasm": "Un gouffre",
+  "Balance": "L'équilibre",
+  "Imbalance": "Le déséquilibre",
+  "Balanced": "Équilibré",
+  "Unbalanced": "Déséquilibré",
+  "Redress Balance": "Rétablir l'équilibre",
+  "Torn": "Déchiré",
+  "Strife": "Rivalités",
+  "Social Advancement": "La promotion sociale",
+  "Career Advancement": "L'ascension professionnelle",
+  "Professional Advancement": "L'ascension professionnelle",
+  "Social Ladder": "L'ascenseur social",
+  "To Move Up Social Ladder": "Monter dans l'échelle sociale",
+  "Upward Social Mobility": "L'ascension sociale",
+  "Self Made Man": "Une personne qui s'est faite elle-même",
+  "Rags To Riches Story": "L'histoire d'un pauvre devenu riche",
+  "To Start From Scratch": "Partir de rien",
+  "To Strike Gold": "Faire fortune",
+  "To Strike It Rich": "Faire fortune",
+  "Equality Of Opportunity": "L'égalité des chances",
+  "Egalitarian": "Égalitaire",
+  "Egalitarianism": "L'égalitarisme",
+  "Social Standing": "Le niveau social",
+  "Social Status": "Le statut social",
+  "Fall In Status": "Le déclassement",
+  "Social Descent": "Le déclassement",
+  "Scrambled": "Bouleversée",
+  "Decline In Living Standards": "Une baisse du niveau de vie",
+  "To Struggle To Get By": "Peiner à s'en sortir",
+  "Difficulty Paying Bills": "Avoir du mal à payer les factures",
+  "To Make Ends Meet": "Joindre les deux bouts",
+  "To Live Hand To Mouth": "Vivre le jour le jour",
+  "To Scrape By": "Vivoter",
+  "To Survive": "Survivre",
+  "Homeless": "Sans abris",
+  "Homelessness Is On The Rise": "Il y a de plus en plus de sans abris",
+  "Tramp": "Un clodo",
+  "Bum": "Un clodo",
+  "Bag Lady": "Une clocharde",
+  "Soup Kitchen": "Une soupe populaire",
+  "Bread Line": "Une soupe populaire",
+  "Underclass": "Le quart-monde",
+  "Slum": "Un taudis",
+  "To Tighten Your Belt": "Se serrer la ceinture",
+  "To Be On Shoestring": "Vivre avec peu d'argent",
+  "From Rags To Riches": "Passer de la misère à la richesse",
+  "Fat Cat": "Un gros richard"
+}
 
 
-let list = document.getElementById('list')
-for (let clé in mot) {
-    list.innerHTML += "<p class='mot_l'>"+clé+" : "+mot[clé],"</p>"
+
+let list1 = document.getElementById('list1')
+for (let clé in CH1) {
+    console.log(1)
+    list1.innerHTML += "<li class='mot_l'>"+clé+" : "+CH1[clé],"</li>"
+}
+
+let list2 = document.getElementById('list2')
+for (let clé in CH2) {
+    list2.innerHTML += "<li class='mot_l'>"+clé+" : "+CH2[clé],"</li>"
+}
+
+let list3 = document.getElementById('list3')
+for (let clé in CH3) {
+    list3.innerHTML += "<li class='mot_l'>"+clé+" : "+CH3[clé],"</li>"
 }

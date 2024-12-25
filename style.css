@@ -112,5 +112,19 @@ img{
 }
 h1{
     text-align: center;
-    color: rgb(223, 246, 235);
+    
+}
+h2{
+    text-align: center;
+    color: rgb(117, 236, 178);
+    font: 60px;
+    font-size: 60px;
+}
+ul{
+    background-color: white;
+}
+li{
+    font-size: 22;
+    margin: 4px;
+
 }
