@@ -1,0 +1,91 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('fond2.png'); /* Remplacez 'chemin/vers/votre/image.jpg' par le chemin réel de votre image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    
+}
+#list1{
+    padding: 8px;
+    background-color: rgba(0, 255, 255, 0.3);
+    border-radius: 16px;
+}
+#list3{
+    padding: 8px;
+    border-radius: 16px;
+    background-color: rgba(55, 255, 0, 0.3);
+}
+#list2{
+    padding: 8px;
+    border-radius: 16px;
+    background-color: rgba(255, 0, 230, 0.3);
+}
+#list4{
+    padding: 8px;    
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 3em;
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #333;
+    margin-top: 30px;
+    font-size: 2em;
+}
+
+/* Style pour le lien retour */
+.retour img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: transform 0.2s;
+}
+
+.retour img:hover {
+    transform: scale(1.1);
+}
+
+/* Style pour les listes */
+ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+ul li {
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    transition: transform 0.2s;
+}
+
+ul li:hover {
+    transform: translateY(-5px);
+}
+
+/* Style des animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+ul li {
+    animation: fadeIn 0.5s ease-in;
+}

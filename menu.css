@@ -1,0 +1,58 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    background-image: url('fond2.png'); /* Remplacez 'chemin/vers/votre/image.jpg' par le chemin réel de votre image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Menu */
+#menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Boutons de choix */
+.choix_du_mode {
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.choix_du_mode:hover {
+    background: #357ab8;
+    transform: translateY(-3px);
+}
+
+.choix_du_mode:active {
+    background: #2c6395;
+    transform: translateY(0);
+}
+
+/* Animation des boutons */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.choix_du_mode {
+    animation: fadeIn 0.4s ease-in;
+}
