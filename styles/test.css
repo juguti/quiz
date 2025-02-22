@@ -1,12 +1,12 @@
 /* Style général */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('fond2.png'); /* Remplacez 'chemin/vers/votre/image.jpg' par le chemin réel de votre image */
+    background-image: url('../asset/fond2.png'); /* Remplacez 'chemin/vers/votre/image.jpg' par le chemin réel de votre image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #333;
+    color: #333333;
     margin: 0;
     padding: 20px;
     text-align: center;

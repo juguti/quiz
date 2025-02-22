@@ -1,0 +1,97 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../asset/fond2.png'); /* Remplacez 'chemin/vers/votre/image.jpg' par le chemin réel de votre image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* En-tête du score */
+#point_case {
+    background: #fff;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#point {
+    font-size: 2em;
+    color: #4a90e2;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Lien retour */
+.retour img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: transform 0.2s;
+}
+
+.retour img:hover {
+    transform: scale(1.1);
+}
+
+/* Question */
+#question {
+    font-size: 2em;
+    color: #333;
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Boutons de réponse */
+#espace_button {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.reponse {
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.reponse:hover {
+    background: #357ab8;
+    transform: translateY(-3px);
+}
+
+.reponse:active {
+    background: #2c6395;
+    transform: translateY(0);
+}
+
+/* Animation des boutons */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.reponse {
+    animation: fadeIn 0.4s ease-in;
+}
