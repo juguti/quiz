@@ -264,7 +264,7 @@ const CH1 = {
         
 
 // Fonction pour générer l'affichage
-function afficherDictionnaire(CH1) {
+function afficherDictionnaire(dictionnaire) {
     const body = document.body;
     let colorIndex = 0;
     const colors = ["#FF6347", "#4682B4", "#32CD32", "#FFD700", "#8A2BE2", "#DC143C", "#FF4500"];
