@@ -820,10 +820,34 @@ const CH4 =
     "deux fois moins de (singulier)": "half as much + singulier",
     "la part de": "the share of",
     "contenu haineux": "hateful content",
-    "propos haineux": "hate speech"
-
-
-}
+    "propos haineux": "hate speech",
+      "Swear words": "",
+      "Cliff": "falaise",
+      "Devices": "appareils",
+      "Non-committal": "neutre",
+      "Dictatorship": "dictature",
+      "Stance position": "position tranchée",
+      "It’s more of a": "c’est plus",
+      "All the more": "d’autant",
+      "Hence": "d’où",
+      "Foul": "idiot",
+      "Seldom": "rarement",
+      "Patchy": "incomplet",
+      "Applied for": "postuler",
+      "Meager": "simple",
+      "To puzzle sb": "rendre confus",
+      "To curb": "réduire",
+      "The share of": "proportion",
+      "Ludicrous": "ridicule",
+      "To stifle": "limiter",
+      "To resort to": "utiliser",
+      "To fetter/to shackle": "enchaîner",
+      "The line is blurred": "la ligne est floue",
+      "To comply with": "être conforme à",
+      "Self defeating/counter productif": "contre-productif",
+      "To distinguish": "distinguer"
+    }
+    
 
 
 
