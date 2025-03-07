@@ -759,7 +759,24 @@ const CH4 =
       "The line is blurred": "la ligne est floue",
       "To comply with": "être conforme à",
       "Self defeating/counter productif": "contre-productif",
-      "To distinguish": "distinguer"
+      "To distinguish": "distinguer",
+        "to abide by sthg": "se conformer à, obéir à, se plier à",
+        "to flag": "signaler",
+        "a slur": "une insulte, une remarque désobligeante",
+        "'cracker' is a slur in some southern US states where it refers to poor white people.": "'cracker' est une insulte dans certains États du sud des États-Unis où il désigne les blancs pauvres.",
+        "advocacy group": "groupe de défense",
+        "a fool's errand": "une tâche vouée à l'échec",
+        "to blast sbdy": "critiquer",
+        "a manifesto": "un manifeste",
+        "to spot": "repérer",
+        "unprecedented": "sans précédent",
+        "to have one's account deleted": "se faire effacer son compte",
+        "a critical avenue": "un lieu majeur, un espace important, un moyen essentiel",
+        "ongoing efforts": "efforts soutenus, continus, en cours",
+        "gatekeeper": "gardien, contrôleur d’accès",
+        "a quarter": "un trimestre"
+       
+      
     }
     
 
