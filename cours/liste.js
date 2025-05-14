@@ -1004,7 +1004,20 @@ let ch5 = {
   "Donner droit à quelqu’un": "to entitle sb",
   "Autoritaire / dominateur": "overbearing",
   "Supposition / hypothèse": "assumption",
-  "Les mises (dans les jeux d’argent)": "stakes"
+  "Les mises (dans les jeux d’argent)": "stakes",
+  "to aim at ING": "viser à + verbe en -ant",
+  "to prevent sbdy from ING": "empêcher quelqu'un de + verbe",
+  "to bar sbdy from ING": "interdire à quelqu'un de + verbe",
+  "progress towards": "progrès vers",
+  "by the end of next year": "d'ici la fin de l'année prochaine",
+  "among(st)": "parmi",
+  "to drive up (the trade of …) / to increase": "faire augmenter / accroître",
+        "draw up":"rédiger",
+        "trown in the turmoil":"jetter dans la confusion",
+        "tear down":"détruire",
+        "to shoulder the burden":"prendre la responsabilité"
+
+
 }
     
 
